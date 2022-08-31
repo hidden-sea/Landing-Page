@@ -5,12 +5,14 @@ box-sizing{border-box}
 .container img {
     width:550px;
     height:300px;
+    padding-bottom:30px;
 
 }
 img{
     width: 300px;
     height: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    margin-right:10px;
 
 }
 
@@ -100,12 +102,11 @@ a{
    
     color:white;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 500px;
-    width: 700px;
-    margin-left:500px;
-    border: white solid 10px;
+    width: auto;
+  
 
 
 }
@@ -140,12 +141,12 @@ a{
     height:100px;
     width: 900px;
     display:flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items:center;
+  
 }
 
 button{
     background:white;
     border-radius:30%;
-    margin:20px;
+    margin-left:200px;
 }
