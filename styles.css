@@ -2,7 +2,11 @@
 ::after
 box-sizing{border-box}
 
+.container img {
+    width:550px;
+    height:300px;
 
+}
 img{
     width: 300px;
     height: 200px;
@@ -62,7 +66,7 @@ a{
 }
 .leftside{
     height:300px;
-    width:300px;
+    width:500px;
 }
 
 .container2{
@@ -93,13 +97,12 @@ a{
 }
 
 .container4{
-    border-radius:50px;
-    background-color: blue;
+   
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 500px;
     width: 700px;
     margin-left:500px;
     border: white solid 10px;
@@ -109,11 +112,13 @@ a{
 
 .footer{
     display: flex;
-    align-items:flex-end;
+    align-items:center;
     justify-content: center;
     background:#1F2937;
     color:white;
     margin-bottom: 0px;
+    padding-bottom:20px;
+    padding-top:20px;
 
 }
 
@@ -130,13 +135,17 @@ a{
 }
 
 .box5{
+    border-radius:25px;
+    background-color: royalblue;
     height:100px;
-    width:400px;
+    width: 900px;
     display:flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.button{
-    background:royalblue;
+button{
+    background:white;
+    border-radius:30%;
+    margin:20px;
 }
