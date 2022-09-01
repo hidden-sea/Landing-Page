@@ -23,6 +23,7 @@ img{
     background-color: #1F2937;
     color:white;
     margin:0px;
+    width:auto;
 
 }
 
@@ -64,6 +65,7 @@ a{
     padding-top:50px;
     align-items: center;
     justify-content: space-evenly;
+    width:auto;
     
 }
 .leftside{
@@ -94,6 +96,7 @@ a{
     font-weight:italic;
     color:#1f2937;
     height: 500px;
+    width:auto;
     
 
 }
